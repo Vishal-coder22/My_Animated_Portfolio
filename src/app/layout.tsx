@@ -21,6 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-phi-cyan-86.vercel.app"),
   title: {
     default: "Vishal Kumar Sharma — Full-Stack & AI Developer",
     template: "%s | Vishal Kumar Sharma",
