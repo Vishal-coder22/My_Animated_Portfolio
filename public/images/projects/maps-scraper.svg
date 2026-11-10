@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1210"/>
+      <stop offset="100%" stop-color="#08100e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="500" cy="300" rx="280" ry="180" fill="#10B981" opacity="0.04"/>
+  <rect x="40" y="30" width="720" height="540" rx="12" fill="#111118" stroke="#ffffff0d" stroke-width="1"/>
+  <rect x="40" y="30" width="720" height="36" rx="12" fill="#16161f"/>
+  <rect x="40" y="54" width="720" height="12" fill="#16161f"/>
+  <circle cx="62" cy="48" r="5" fill="#ff5f57"/><circle cx="80" cy="48" r="5" fill="#febc2e"/><circle cx="98" cy="48" r="5" fill="#28c840"/>
+  <rect x="200" y="41" width="400" height="14" rx="7" fill="#ffffff08"/>
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui" font-size="8" fill="#ffffff40">mapinsight.app</text>
+  <rect x="40" y="66" width="160" height="504" fill="#0a1210"/>
+  <rect x="40" y="66" width="160" height="1" fill="#ffffff08"/>
+  <text x="65" y="92" font-family="system-ui" font-size="11" font-weight="700" fill="#10B981">MapInsight</text>
+  <text x="65" y="105" font-family="system-ui" font-size="8" fill="#ffffff40">Data Extraction</text>
+  <rect x="55" y="125" width="130" height="28" rx="6" fill="#10B981" opacity="0.12"/>
+  <text x="75" y="143" font-family="system-ui" font-size="9" fill="#10B981">Dashboard</text>
+  <rect x="55" y="162" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="180" font-family="system-ui" font-size="9" fill="#ffffff50">Scrape</text>
+  <rect x="55" y="199" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="217" font-family="system-ui" font-size="9" fill="#ffffff50">Exports</text>
+  <rect x="55" y="236" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="254" font-family="system-ui" font-size="9" fill="#ffffff50">Settings</text>
+  <rect x="220" y="80" width="520" height="180" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="105" font-family="system-ui" font-size="10" font-weight="600" fill="#ffffff80">Map View</text>
+  <rect x="240" y="120" width="480" height="120" rx="4" fill="#10B98108"/>
+  <circle cx="350" cy="170" r="8" fill="#10B981" opacity="0.3"/><circle cx="350" cy="170" r="3" fill="#10B981"/>
+  <circle cx="420" cy="190" r="8" fill="#10B981" opacity="0.3"/><circle cx="420" cy="190" r="3" fill="#10B981"/>
+  <circle cx="500" cy="155" r="8" fill="#10B981" opacity="0.3"/><circle cx="500" cy="155" r="3" fill="#10B981"/>
+  <circle cx="560" cy="180" r="8" fill="#10B981" opacity="0.3"/><circle cx="560" cy="180" r="3" fill="#10B981"/>
+  <circle cx="380" cy="210" r="6" fill="#10B981" opacity="0.2"/><circle cx="380" cy="210" r="2" fill="#10B981"/>
+  <circle cx="600" cy="165" r="6" fill="#10B981" opacity="0.2"/><circle cx="600" cy="165" r="2" fill="#10B981"/>
+  <text x="310" y="165" font-family="system-ui" font-size="7" fill="#10B981">Mumbai</text>
+  <text x="440" y="200" font-family="system-ui" font-size="7" fill="#10B981">Delhi</text>
+  <text x="510" y="148" font-family="system-ui" font-size="7" fill="#10B981">Bangalore</text>
+  <text x="570" y="173" font-family="system-ui" font-size="7" fill="#10B981">Pune</text>
+  <rect x="220" y="280" width="520" height="260" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="305" font-family="system-ui" font-size="10" font-weight="600" fill="#ffffff80">Extracted Data</text>
+  <text x="480" y="305" font-family="system-ui" font-size="9" fill="#10B981">Export CSV</text>
+  <rect x="240" y="320" width="480" height="1" fill="#ffffff08"/>
+  <text x="250" y="342" font-family="system-ui" font-size="8" fill="#ffffff60">Business Name</text>
+  <text x="410" y="342" font-family="system-ui" font-size="8" fill="#ffffff60">Category</text>
+  <text x="530" y="342" font-family="system-ui" font-size="8" fill="#ffffff60">Rating</text>
+  <text x="610" y="342" font-family="system-ui" font-size="8" fill="#ffffff60">Phone</text>
+  <rect x="240" y="355" width="480" height="24" rx="4" fill="#10B98106"/>
+  <text x="250" y="371" font-family="system-ui" font-size="8" fill="#ffffff50">Spice Garden Restaurant</text>
+  <text x="410" y="371" font-family="system-ui" font-size="8" fill="#ffffff40">Restaurant</text>
+  <text x="530" y="371" font-family="system-ui" font-size="8" fill="#10B981">4.5</text>
+  <text x="610" y="371" font-family="system-ui" font-size="8" fill="#ffffff40">+91 98765</text>
+  <rect x="240" y="385" width="480" height="24" rx="4" fill="transparent"/>
+  <text x="250" y="401" font-family="system-ui" font-size="8" fill="#ffffff50">Metro Coffee House</text>
+  <text x="410" y="401" font-family="system-ui" font-size="8" fill="#ffffff40">Cafe</text>
+  <text x="530" y="401" font-family="system-ui" font-size="8" fill="#10B981">4.2</text>
+  <text x="610" y="401" font-family="system-ui" font-size="8" fill="#ffffff40">+91 87654</text>
+  <rect x="240" y="415" width="480" height="24" rx="4" fill="#10B98106"/>
+  <text x="250" y="431" font-family="system-ui" font-size="8" fill="#ffffff50">Elite Fitness Gym</text>
+  <text x="410" y="431" font-family="system-ui" font-size="8" fill="#ffffff40">Gym</text>
+  <text x="530" y="431" font-family="system-ui" font-size="8" fill="#10B981">4.8</text>
+  <text x="610" y="431" font-family="system-ui" font-size="8" fill="#ffffff40">+91 76543</text>
+  <rect x="240" y="445" width="480" height="24" rx="4" fill="transparent"/>
+  <text x="250" y="461" font-family="system-ui" font-size="8" fill="#ffffff50">Sunrise Medical Store</text>
+  <text x="410" y="461" font-family="system-ui" font-size="8" fill="#ffffff40">Pharmacy</text>
+  <text x="530" y="461" font-family="system-ui" font-size="8" fill="#10B981">4.1</text>
+  <text x="610" y="461" font-family="system-ui" font-size="8" fill="#ffffff40">+91 65432</text>
+  <rect x="240" y="475" width="480" height="24" rx="4" fill="#10B98106"/>
+  <text x="250" y="491" font-family="system-ui" font-size="8" fill="#ffffff50">Green Leaf Salon</text>
+  <text x="410" y="491" font-family="system-ui" font-size="8" fill="#ffffff40">Salon</text>
+  <text x="530" y="491" font-family="system-ui" font-size="8" fill="#10B981">4.6</text>
+  <text x="610" y="491" font-family="system-ui" font-size="8" fill="#ffffff40">+91 54321</text>
+  <rect x="240" y="505" width="480" height="24" rx="4" fill="transparent"/>
+  <text x="250" y="521" font-family="system-ui" font-size="8" fill="#ffffff50">Quick Fix Auto Repairs</text>
+  <text x="410" y="521" font-family="system-ui" font-size="8" fill="#ffffff40">Auto Service</text>
+  <text x="530" y="521" font-family="system-ui" font-size="8" fill="#10B981">4.3</text>
+  <text x="610" y="521" font-family="system-ui" font-size="8" fill="#ffffff40">+91 43210</text>
+</svg>

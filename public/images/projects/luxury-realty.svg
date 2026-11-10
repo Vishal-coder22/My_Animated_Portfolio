@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#100e0a"/>
+      <stop offset="100%" stop-color="#0d0c08"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="250" rx="280" ry="180" fill="#C9A96E" opacity="0.05"/>
+  <rect x="40" y="30" width="720" height="540" rx="12" fill="#111118" stroke="#ffffff0d" stroke-width="1"/>
+  <rect x="40" y="30" width="720" height="36" rx="12" fill="#16161f"/>
+  <rect x="40" y="54" width="720" height="12" fill="#16161f"/>
+  <circle cx="62" cy="48" r="5" fill="#ff5f57"/><circle cx="80" cy="48" r="5" fill="#febc2e"/><circle cx="98" cy="48" r="5" fill="#28c840"/>
+  <rect x="200" y="41" width="400" height="14" rx="7" fill="#ffffff08"/>
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui" font-size="8" fill="#ffffff40">luxuryrealty.com</text>
+  <rect x="40" y="66" width="720" height="40" fill="#100e0a" opacity="0.9"/>
+  <text x="75" y="90" font-family="system-ui" font-size="11" font-weight="700" fill="#C9A96E">Luxury Realty</text>
+  <text x="450" y="90" font-family="system-ui" font-size="9" fill="#ffffff50">Buy</text>
+  <text x="490" y="90" font-family="system-ui" font-size="9" fill="#ffffff50">Rent</text>
+  <text x="530" y="90" font-family="system-ui" font-size="9" fill="#ffffff50">Sell</text>
+  <text x="580" y="90" font-family="system-ui" font-size="9" fill="#ffffff50">Agents</text>
+  <rect x="650" y="78" width="90" height="20" rx="10" fill="#C9A96E" opacity="0.15"/>
+  <text x="695" y="92" text-anchor="middle" font-family="system-ui" font-size="8" fill="#C9A96E">List Property</text>
+  <text x="100" y="160" font-family="system-ui" font-size="28" font-weight="800" fill="#ffffff">Find Your</text>
+  <text x="100" y="195" font-family="system-ui" font-size="28" font-weight="800" fill="#C9A96E">Dream Home</text>
+  <text x="100" y="220" font-family="system-ui" font-size="10" fill="#ffffff40">Premium properties in the finest locations</text>
+  <rect x="100" y="235" width="500" height="32" rx="16" fill="#16161f" stroke="#ffffff0a" stroke-width="1"/>
+  <text x="130" y="255" font-family="system-ui" font-size="9" fill="#ffffff40">Search by location, price, or property type...</text>
+  <rect x="560" y="237" width="70" height="28" rx="14" fill="#C9A96E"/>
+  <text x="595" y="255" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="600" fill="#100e0a">Search</text>
+  <g transform="translate(100, 290)">
+    <rect width="230" height="150" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+    <rect width="230" height="85" rx="8" fill="#C9A96E" opacity="0.06"/>
+    <rect x="15" y="15" width="60" height="55" rx="4" fill="#C9A96E" opacity="0.12"/>
+    <text x="45" y="48" text-anchor="middle" font-family="system-ui" font-size="14">🏠</text>
+    <rect x="15" y="95" width="100" height="8" rx="4" fill="#ffffff10"/>
+    <rect x="15" y="110" width="140" height="6" rx="3" fill="#ffffff06"/>
+    <text x="15" y="135" font-family="system-ui" font-size="11" font-weight="700" fill="#C9A96E">$1.2M</text>
+    <text x="120" y="135" font-family="system-ui" font-size="8" fill="#ffffff40">4 Bed • 3 Bath</text>
+  </g>
+  <g transform="translate(350, 290)">
+    <rect width="230" height="150" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+    <rect width="230" height="85" rx="8" fill="#C9A96E" opacity="0.06"/>
+    <rect x="15" y="15" width="60" height="55" rx="4" fill="#C9A96E" opacity="0.12"/>
+    <text x="45" y="48" text-anchor="middle" font-family="system-ui" font-size="14">🏢</text>
+    <rect x="15" y="95" width="100" height="8" rx="4" fill="#ffffff10"/>
+    <rect x="15" y="110" width="140" height="6" rx="3" fill="#ffffff06"/>
+    <text x="15" y="135" font-family="system-ui" font-size="11" font-weight="700" fill="#C9A96E">$850K</text>
+    <text x="105" y="135" font-family="system-ui" font-size="8" fill="#ffffff40">2 Bed • 2 Bath</text>
+  </g>
+  <g transform="translate(600, 290)">
+    <rect width="140" height="150" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+    <rect width="140" height="85" rx="8" fill="#C9A96E" opacity="0.06"/>
+    <rect x="15" y="15" width="60" height="55" rx="4" fill="#C9A96E" opacity="0.12"/>
+    <text x="45" y="48" text-anchor="middle" font-family="system-ui" font-size="14">🏡</text>
+    <rect x="15" y="95" width="80" height="8" rx="4" fill="#ffffff10"/>
+    <rect x="15" y="110" width="100" height="6" rx="3" fill="#ffffff06"/>
+    <text x="15" y="135" font-family="system-ui" font-size="11" font-weight="700" fill="#C9A96E">$2.1M</text>
+  </g>
+  <rect x="100" y="470" width="600" height="40" rx="8" fill="#C9A96E06"/>
+  <text x="130" y="495" font-family="system-ui" font-size="10" fill="#ffffff50">Featured in Architectural Digest • 500+ Premium Listings</text>
+</svg>

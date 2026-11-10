@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#140a0c"/>
+      <stop offset="100%" stop-color="#1a0d10"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Ambient glow -->
+  <ellipse cx="500" cy="300" rx="250" ry="200" fill="#E50914" opacity="0.05"/>
+  <!-- Browser chrome -->
+  <rect x="40" y="30" width="720" height="540" rx="12" fill="#111118" stroke="#ffffff0d" stroke-width="1"/>
+  <rect x="40" y="30" width="720" height="36" rx="12" fill="#16161f"/>
+  <rect x="40" y="54" width="720" height="12" fill="#16161f"/>
+  <circle cx="62" cy="48" r="5" fill="#ff5f57"/><circle cx="80" cy="48" r="5" fill="#febc2e"/><circle cx="98" cy="48" r="5" fill="#28c840"/>
+  <rect x="200" y="41" width="400" height="14" rx="7" fill="#ffffff08"/>
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui" font-size="8" fill="#ffffff40">cinemine.app</text>
+  <!-- Sidebar -->
+  <rect x="40" y="66" width="160" height="504" fill="#0d0b16"/>
+  <rect x="40" y="66" width="160" height="1" fill="#ffffff08"/>
+  <text x="65" y="92" font-family="system-ui" font-size="11" font-weight="700" fill="#E50914">CineMine</text>
+  <text x="65" y="105" font-family="system-ui" font-size="9" fill="#ffffff40">Movie Analytics</text>
+  <!-- Sidebar items -->
+  <rect x="55" y="125" width="130" height="28" rx="6" fill="#E50914" opacity="0.12"/>
+  <text x="75" y="143" font-family="system-ui" font-size="9" fill="#E50914">Recommendations</text>
+  <rect x="55" y="162" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="180" font-family="system-ui" font-size="9" fill="#ffffff50">Import History</text>
+  <rect x="55" y="199" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="217" font-family="system-ui" font-size="9" fill="#ffffff50">Clusters</text>
+  <rect x="55" y="236" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="254" font-family="system-ui" font-size="9" fill="#ffffff50">Catalogue</text>
+  <!-- Import zone -->
+  <rect x="220" y="80" width="520" height="80" rx="8" fill="#E50914" opacity="0.04" stroke="#E5091420" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="480" y="115" text-anchor="middle" font-family="system-ui" font-size="11" fill="#ffffff60">Drop watch history (CSV / PDF) to import</text>
+  <text x="480" y="135" text-anchor="middle" font-family="system-ui" font-size="9" fill="#ffffff30">Fuzzy-matched against 4,800 movies</text>
+  <!-- Recommendation cards -->
+  <rect x="220" y="180" width="520" height="360" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="205" font-family="system-ui" font-size="10" font-weight="600" fill="#ffffff80">Recommended for you</text>
+  <g>
+    <rect x="240" y="225" width="150" height="190" rx="8" fill="#1c1a28"/>
+    <rect x="240" y="225" width="150" height="120" rx="8" fill="#E5091415"/>
+    <rect x="252" y="300" width="126" height="8" rx="4" fill="#ffffff15"/>
+    <rect x="252" y="316" width="90" height="6" rx="3" fill="#ffffff10"/>
+    <text x="252" y="352" font-family="system-ui" font-size="9" font-weight="600" fill="#ffffff70">Because you watched...</text>
+    <rect x="252" y="366" width="126" height="34" rx="6" fill="#E5091410"/>
+    <text x="262" y="387" font-family="system-ui" font-size="8" fill="#E50914">Naive Bayes · 92%</text>
+  </g>
+  <g>
+    <rect x="405" y="225" width="150" height="190" rx="8" fill="#1c1a28"/>
+    <rect x="405" y="225" width="150" height="120" rx="8" fill="#E5091410"/>
+    <rect x="417" y="300" width="126" height="8" rx="4" fill="#ffffff15"/>
+    <rect x="417" y="316" width="80" height="6" rx="3" fill="#ffffff10"/>
+    <text x="417" y="352" font-family="system-ui" font-size="9" font-weight="600" fill="#ffffff70">Apriori associations</text>
+    <rect x="417" y="366" width="126" height="34" rx="6" fill="#E5091410"/>
+    <text x="427" y="387" font-family="system-ui" font-size="8" fill="#E50914">K-Means cluster 3</text>
+  </g>
+  <g>
+    <rect x="570" y="225" width="150" height="190" rx="8" fill="#1c1a28"/>
+    <rect x="570" y="225" width="150" height="120" rx="8" fill="#E5091412"/>
+    <rect x="582" y="300" width="126" height="8" rx="4" fill="#ffffff15"/>
+    <rect x="582" y="316" width="96" height="6" rx="3" fill="#ffffff10"/>
+    <text x="582" y="352" font-family="system-ui" font-size="9" font-weight="600" fill="#ffffff70">Genre prediction</text>
+    <rect x="582" y="366" width="126" height="34" rx="6" fill="#E5091410"/>
+    <text x="592" y="387" font-family="system-ui" font-size="8" fill="#E50914">Explained in plain words</text>
+  </g>
+  <!-- Explain bar -->
+  <rect x="240" y="440" width="480" height="44" rx="8" fill="#E5091410"/>
+  <text x="260" y="460" font-family="system-ui" font-size="9" fill="#E50914">Why this pick?</text>
+  <text x="260" y="475" font-family="system-ui" font-size="8" fill="#ffffff50">You rated sci-fi 4+ stars and share genres with cluster 3 viewers.</text>
+  <!-- Test badge -->
+  <rect x="240" y="500" width="170" height="30" rx="15" fill="#E5091415"/>
+  <text x="325" y="519" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="600" fill="#E50914">78 pytest tests passing</text>
+</svg>

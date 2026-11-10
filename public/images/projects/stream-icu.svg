@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1418"/>
+      <stop offset="100%" stop-color="#0d1a20"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Ambient glow -->
+  <ellipse cx="500" cy="300" rx="250" ry="200" fill="#06B6D4" opacity="0.05"/>
+  <!-- Browser chrome -->
+  <rect x="40" y="30" width="720" height="540" rx="12" fill="#111118" stroke="#ffffff0d" stroke-width="1"/>
+  <rect x="40" y="30" width="720" height="36" rx="12" fill="#16161f"/>
+  <rect x="40" y="54" width="720" height="12" fill="#16161f"/>
+  <circle cx="62" cy="48" r="5" fill="#ff5f57"/><circle cx="80" cy="48" r="5" fill="#febc2e"/><circle cx="98" cy="48" r="5" fill="#28c840"/>
+  <rect x="200" y="41" width="400" height="14" rx="7" fill="#ffffff08"/>
+  <text x="400" y="52" text-anchor="middle" font-family="system-ui" font-size="8" fill="#ffffff40">stream-icu.local:3000</text>
+  <!-- Sidebar -->
+  <rect x="40" y="66" width="160" height="504" fill="#0d0b16"/>
+  <rect x="40" y="66" width="160" height="1" fill="#ffffff08"/>
+  <text x="65" y="92" font-family="system-ui" font-size="11" font-weight="700" fill="#06B6D4">StreamICU</text>
+  <text x="65" y="105" font-family="system-ui" font-size="9" fill="#ffffff40">Telemetry Warehouse</text>
+  <!-- Sidebar items -->
+  <rect x="55" y="125" width="130" height="28" rx="6" fill="#06B6D4" opacity="0.12"/>
+  <text x="75" y="143" font-family="system-ui" font-size="9" fill="#06B6D4">Live Stream</text>
+  <rect x="55" y="162" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="180" font-family="system-ui" font-size="9" fill="#ffffff50">Anomalies</text>
+  <rect x="55" y="199" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="217" font-family="system-ui" font-size="9" fill="#ffffff50">Pipeline</text>
+  <rect x="55" y="236" width="130" height="28" rx="6" fill="transparent"/>
+  <text x="75" y="254" font-family="system-ui" font-size="9" fill="#ffffff50">Grafana</text>
+  <!-- Pipeline flow -->
+  <rect x="220" y="80" width="520" height="70" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <rect x="240" y="98" width="110" height="34" rx="6" fill="#06B6D412"/>
+  <text x="295" y="119" text-anchor="middle" font-family="system-ui" font-size="9" fill="#06B6D4">Kafka Producer</text>
+  <text x="365" y="119" font-family="system-ui" font-size="12" fill="#ffffff30">→</text>
+  <rect x="385" y="98" width="110" height="34" rx="6" fill="#06B6D412"/>
+  <text x="440" y="119" text-anchor="middle" font-family="system-ui" font-size="9" fill="#06B6D4">Isolation Forest</text>
+  <text x="510" y="119" font-family="system-ui" font-size="12" fill="#ffffff30">→</text>
+  <rect x="530" y="98" width="90" height="34" rx="6" fill="#06B6D412"/>
+  <text x="575" y="119" text-anchor="middle" font-family="system-ui" font-size="9" fill="#06B6D4">ClickHouse</text>
+  <text x="635" y="119" font-family="system-ui" font-size="12" fill="#ffffff30">→</text>
+  <rect x="655" y="98" width="70" height="34" rx="6" fill="#06B6D412"/>
+  <text x="690" y="119" text-anchor="middle" font-family="system-ui" font-size="9" fill="#06B6D4">Grafana</text>
+  <!-- ECG waveform panel -->
+  <rect x="220" y="170" width="520" height="180" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="195" font-family="system-ui" font-size="10" font-weight="600" fill="#ffffff80">ICU Telemetry — Patient 04</text>
+  <polyline points="240,300 280,300 300,300 310,260 320,340 330,280 340,300 380,300 400,300 410,255 420,345 430,285 440,300 480,300 500,300 510,258 520,342 530,282 540,300 580,300 600,300 610,256 620,344 630,284 640,300 680,300 700,300 710,262 720,338 730,288 740,300"
+    fill="none" stroke="#06B6D4" stroke-width="2"/>
+  <line x1="240" y1="230" x2="740" y2="230" stroke="#ffffff08" stroke-width="1"/>
+  <line x1="240" y1="330" x2="740" y2="330" stroke="#ffffff08" stroke-width="1"/>
+  <!-- Anomaly marker -->
+  <circle cx="520" cy="342" r="8" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <text x="534" y="362" font-family="system-ui" font-size="8" fill="#f59e0b">Anomaly · score 0.91</text>
+  <!-- Stats row -->
+  <rect x="220" y="370" width="160" height="70" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="400" font-family="system-ui" font-size="18" font-weight="700" fill="#06B6D4">4</text>
+  <text x="240" y="422" font-family="system-ui" font-size="8" fill="#ffffff50">Docker Compose services</text>
+  <rect x="395" y="370" width="160" height="70" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="415" y="400" font-family="system-ui" font-size="18" font-weight="700" fill="#06B6D4">4</text>
+  <text x="415" y="422" font-family="system-ui" font-size="8" fill="#ffffff50">member team · ongoing</text>
+  <rect x="570" y="370" width="170" height="70" rx="8" fill="#16161f" stroke="#ffffff08" stroke-width="1"/>
+  <text x="590" y="400" font-family="system-ui" font-size="18" font-weight="700" fill="#06B6D4">Kafka</text>
+  <text x="590" y="422" font-family="system-ui" font-size="8" fill="#ffffff50">producer / consumer owned</text>
+  <!-- Log ticker -->
+  <rect x="220" y="460" width="520" height="80" rx="8" fill="#0d0b16" stroke="#ffffff08" stroke-width="1"/>
+  <text x="240" y="485" font-family="system-ui" font-size="8" fill="#06B6D4">[consumer] batch 1284 committed → clickhouse.icu_events</text>
+  <text x="240" y="505" font-family="system-ui" font-size="8" fill="#ffffff40">[producer] heart-rate window flushed (500 msg/s)</text>
+  <text x="240" y="525" font-family="system-ui" font-size="8" fill="#f59e0b">[detector] isolation forest flagged vitals spike · patient 04</text>
+</svg>
